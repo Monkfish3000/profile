@@ -1,0 +1,102 @@
+body {
+font-family: 'Merriweather', serif;
+background-color: rgba(224, 242, 233, 0.3);
+font-size: 17px;
+color: rgba(10, 20, 31);
+line-height: 1.6;
+
+}
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgba(10, 20, 75, 0.8);
+  font-size: 36px;
+  font-weight: 900;
+  line-height:1.9;
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgba(70, 158, 112, 0.5);
+  font-size: 20px;
+  font-weight: 900;
+  line-height:1.9;
+}
+
+h2:hover {
+  color: rgba(255, 0, 0, 1.0)
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: rgba(10, 20, 75, 1.0);
+  line-height: 1.6;
+}
+
+a {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bolder;
+  color: rgba(136, 28, 31);
+  text-decoration: none;
+}
+ a:hover {
+  color: rgba(240, 123, 140);
+ }
+
+li {
+  font-size: 36px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: rgba(249, 219, 230, 0.3);
+  margin: 40px 0px;
+  padding: 40px;
+  box-shadow: 0px 10px 10px rgba(249, 219, 230, 0.6);
+
+}
+
+
+
+
+
+
